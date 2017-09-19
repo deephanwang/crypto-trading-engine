@@ -1,6 +1,19 @@
 ﻿# crypto-trading-engine
 
-> TODO description
+ToDo List
+
+- [ ] write introduction document
+- [ ] write API document
+- [ ] update source code to english
+- [ ] update code structure
+- [ ] give details of data structure
+- [ ] setup database with table schema
+- [ ] test crypto exchange APIs
+- [ ] save historical data to database 
+- [ ] test backtesting model with historical data
+- [ ] plot for base profit Vs. strategy profit
+- [ ] implement trading function
+- [ ] test real-time trading performace
 
 ### Documentation
 
