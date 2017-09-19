@@ -1,4 +1,4 @@
-﻿# crypto-trading-engine
+﻿# Cryptocurrency Trading Engine
 
 ToDo List
 
