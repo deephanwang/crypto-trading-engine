@@ -18,7 +18,7 @@ ToDo List
 ### Documentation
 
 * [Introduction](doc/crypto-trade-intro.md)
-* [Api](doc/api-doc.md)
+* [API](doc/api-doc.md)
 
 ### Setup
 
