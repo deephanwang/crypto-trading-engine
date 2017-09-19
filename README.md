@@ -2,7 +2,7 @@
 
 ToDo List
 
-- [ ] write introduction document
+- [x] write introduction document
 - [ ] write API document
 - [ ] update source code to english
 - [ ] update code structure
