@@ -13,7 +13,7 @@ ToDo List
 - [ ] test backtesting model with historical data
 - [ ] plot for base profit Vs. strategy profit
 - [ ] implement trading function
-- [ ] test real-time trading performace
+- [ ] test real-time trading performance
 
 ### Documentation
 
