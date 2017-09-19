@@ -2,7 +2,7 @@
 
 ## Basic concept of a quant trading system
 pseudocode
-```python
+```
 start {
     init_func(strategy, info, trade)
     loop：when(info.has_update)execute {
@@ -17,7 +17,7 @@ start {
 ```
 ## Quant backtesing
 pseudocode
-```python
+```
 start {
     read_settings(running_time, type, error_coefficient)
     init_func(strategy, backtesting, simulate_accounting)
