@@ -27,6 +27,22 @@ pip install -r requirements.txt
 ./run_userStrategy.sh
 ```
 
+### Docker
+
+```
+# build image
+docker build -t deephanwang/crypto-trading-engine:latest .
+
+# start temporary container
+docker run \
+  --rm \
+  --name crypto-trading-engine \
+  deephanwang/crypto-trading-engine:latest
+
+# access container
+docker exec -it crypto-trading-engine bash
+```
+
 <!--
 
 ###############################################################
