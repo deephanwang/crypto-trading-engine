@@ -1,0 +1,14 @@
+*~
+.DS_Store
+
+.idea/
+*.iml
+.vscode
+
+env
+
+__pycache__
+*.pyc
+
+data/*.data
+log/*.txt

@@ -1,4 +1,51 @@
-﻿###############################################################
+﻿# crypto-trading-engine
+
+> TODO description
+
+### Documentation
+
+* [Introduction](doc/crypto-trade-intro.md)
+* [Api](doc/api-doc.md)
+
+### Setup
+
+```
+# create virtualenv
+virtualenv -p $(which python3) env
+
+# activate virtualenv
+source env/bin/activate
+
+# deactivate virtualenv
+deactivate
+
+# install requirements
+pip install -r requirements.txt
+
+# run
+./run_banZhuan.sh
+./run_userStrategy.sh
+```
+
+### Docker
+
+```
+# build image
+docker build -t deephanwang/crypto-trading-engine:latest .
+
+# start temporary container
+docker run \
+  --rm \
+  --name crypto-trading-engine \
+  deephanwang/crypto-trading-engine:latest
+
+# access container
+docker exec -it crypto-trading-engine bash
+```
+
+<!--
+
+###############################################################
 #   获取更多免费策略，请加入WeQuant比特币量化策略交流QQ群：519538535
 #   WeQuant微宽网 - https://wequant.io
 #   比特币量化交易/优质策略源码/精准回测/免费实盘，尽在微宽网 
@@ -52,4 +99,4 @@ data目录下有每次运行的持仓记录，持仓记录名里面有当次运�
 5. 怎么跑BitVC期货策略
 去http://www.bitvc.com/注册用户，申请API key，将申请好的API key设置到accountConfig.py中的BITVC部分去
 
-
+-->

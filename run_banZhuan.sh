@@ -7,4 +7,4 @@ now=`pwd`
 pythonpath=$now
 
 #执行
-PYTHONPATH=$pythonpath python main_banZhuan.py
+PYTHONPATH=$pythonpath python app/main_banZhuan.py

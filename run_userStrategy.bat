@@ -5,7 +5,7 @@ rem 2、将Python3.5的路径改为你本机路径，就是python.exe 所在路�
 @set PythonDirectory=C:\Python\Python35
 
 cd %PYTHONPATH%
-%PythonDirectory%\python.exe main_userStrategy.py
+%PythonDirectory%\python.exe app\main_userStrategy.py
 
 
 pause
