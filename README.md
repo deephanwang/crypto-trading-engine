@@ -19,6 +19,7 @@ To Do List
 
 * [Introduction](doc/crypto-trade-intro.md)
 * [API](doc/api-doc.md)
+* [Strategy Analysis](doc/strategy-analysis.md)
 
 ### Setup
 
