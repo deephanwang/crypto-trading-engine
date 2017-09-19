@@ -41,9 +41,9 @@ start {
 ### frequency
 frequency is tide up with bar, for example if you set frequency = 1minute, it means the bar contains 1 minute's information, and the strategy execute every minute.
 ### function
-In strategy template, you need to define two functions to be able to activate your strategy. Please check the APIs document for the details.
+In strategy template, you need to define two functions to be able to activate your strategy. Please check the APIs document for details.
 ### variables
-Please check the APIs document for the details.
+Please check the APIs document for details.
 
 ## A basic Strategy - Bitcoin AIP
 ```python
